@@ -25,7 +25,7 @@ namespace StudentCRUD.Pages.Students
         {
             if (_context.Student != null)
             {
-                Student = await _context.Student.ToListAsync();
+                Student = await _context.Students.ToListAsync();
             }
         }
     }
